@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  baseUrl: 'http://h2918549.stratoserver.net/treenotes/'
 };
