@@ -1,0 +1,7 @@
+<div>
+  <h1>Open Sheet Music Display Demo</h1>
+  <p><a href="https://www.w3.org/2021/06/musicxml40/tutorial/introduction/" target="_blank">MusicXML Documentation</a></p>
+  <label for="music-xml-source">URL or XML contents:</label>
+  <textarea id="music-xml-source" style="width: 100%;" [(ngModel)]="musicXml" rows="10"></textarea>
+  <lib-osmd-renderer source="{{musicXml}}"></lib-osmd-renderer>
+</div>
